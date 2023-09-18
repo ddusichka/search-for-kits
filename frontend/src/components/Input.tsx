@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import axios from "axios";
-import { click } from "@testing-library/user-event/dist/click";
 
 /* Represents a Kit used to collect samples for analysis. */
 interface Kit {
@@ -98,6 +97,7 @@ export default function Input() {
               kitDetails.shipping_tracking_code
             }
             target="_blank"
+            rel="noopener noreferrer"
             className="flex"
           >
             <strong>FedEx tracking number: </strong>

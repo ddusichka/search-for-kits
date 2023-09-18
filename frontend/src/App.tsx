@@ -2,7 +2,7 @@ import Input from "./components/Input";
 
 function App() {
   return (
-    <div className="App flex justify-center">
+    <div className="flex justify-center">
       <Input />
     </div>
   );

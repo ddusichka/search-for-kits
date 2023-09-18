@@ -24,7 +24,7 @@ The backend server will run on http://localhost:4000.
 
 # Frontend
 
-Navigate to the frontend directory.
+In a new terminal, navigate to the frontend directory.
 
 ### `cd search-for-kits/frontend`
 
@@ -36,7 +36,7 @@ Run the app:
 
 ### `npm start`
 
-The frontend development server will run on http://localhost:3000.
+The frontend server will run on http://localhost:3000.
 
 # Usage
 
@@ -44,4 +44,4 @@ Open a web browser and navigate to http://localhost:3000.
 
 In the search bar, enter a kit's label ID and click the "Search" button to view its shipping details.
 
-Autocomplete suggestions will appear as you type in the search bar. Click on a suggestion to populate the search bar and view the corresponding kit's details.
+Autocomplete suggestions will appear as you type in the search bar. Click on a suggestion to complete the search bar and view the corresponding kit's details.
