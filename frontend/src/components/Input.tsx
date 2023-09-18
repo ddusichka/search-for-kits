@@ -23,7 +23,7 @@ export default function Input() {
 
   /* Find suggestions by passing in what the user has typed so far. */
   const findSuggestions = async (label: string) => {
-    if (label != "") {
+    if (label !== "") {
       const options = await axios.get(
         "http://localhost:4000/api/kits/suggest/" + label
       );
