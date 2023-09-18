@@ -2,6 +2,8 @@
 
 This is a Biobot kit tracking application that allows users to search for kits by their label IDs and view their shipping details.
 
+<img width="550" alt="image" src="https://github.com/ddusichka/search-for-kits/assets/78527291/70e79623-a496-40ea-851f-8b74cb09e4c6">
+
 ## To run locally
 
 Clone the repository:
