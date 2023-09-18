@@ -23,11 +23,13 @@ export default function Input() {
 
   /* Find suggestions by passing in what the user has typed so far. */
   const findSuggestions = async (label: string) => {
-    const options = await axios.get(
-      "http://localhost:4000/api/kits/suggest/" + label
-    );
+    if (label != "") {
+      const options = await axios.get(
+        "http://localhost:4000/api/kits/suggest/" + label
+      );
 
-    setSuggestions(options.data);
+      setSuggestions(options.data);
+    }
   };
 
   /* After a user clicks on a suggestion, update label and kitDetails and clear the suggestions. */
